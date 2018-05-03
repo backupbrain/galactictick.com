@@ -1,0 +1,109 @@
+#mountains {
+	background-size: 100%;
+}
+#collapse_menu {
+	display: none;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 15px;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: #E6AF2A;
+}
+
+#top_bar.floating {
+	background-color: #fff;
+}
+#top_bar.floating a {
+	color: #222;
+}
+
+section {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+section#about {
+	padding-bottom: 50px;
+
+}
+section#origin {
+	padding-top: 50px;
+}
+
+
+#hero {
+ 	margin-top: 30%;
+}
+
+#galaxy {
+	width: 420px;
+	height: 420px;
+	float: left;
+}
+/*
+#about::before {
+	background-position: left top;
+	background-size: 420px 420px;
+	transform-origin: 210px 210px;
+}
+*/
+#about {
+	text-align: left;
+}
+#galaxy_background {
+	padding-left: 500px;
+}
+
+#origin {
+	background-position: center right;
+	background-size: 389px 420px;
+	padding-right: 500px;
+	text-align: left;
+}
+
+
+#participate_ideas dl {
+	display: inline-block;
+	width: 33%;
+}
+
+
+#social_first .social-links li {
+	padding: 0px 10px
+}
+
+
+#newsletter_registration input {
+	display: inline-block;
+}
+#newsletter_registration input[type="email"] {
+	width: 69%;
+	margin-right: 10px;
+}
+#newsletter_registration input[type="submit"] {
+	width: 29%;
+}
+
+#vimeo_iframe {
+	width: 940px;
+	height: 529px;
+}
+
+
+
+.call_to_action {
+	margin-right: 50px;
+}

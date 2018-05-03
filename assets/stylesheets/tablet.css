@@ -1,0 +1,98 @@
+
+#collapse_menu {
+	display: none;
+}
+nav {
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px 15px;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: #E6AF2A;
+}
+
+#top_bar.floating {
+	background-color: #fff;
+}
+#top_bar.floating a {
+	color: #222;
+}
+
+section {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+section#about {
+	padding-bottom: 50px;
+
+}
+section#origin {
+	padding-top: 50px;
+}
+
+
+
+#hero {
+ 	margin-top: 40%;
+}
+
+#galaxy {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+/*
+#about::before {
+	background-position: left top;
+	background-size: 300px 300px;
+	transform-origin: 150px 150px;
+}
+*/
+#about {
+	text-align: left;
+}
+#galaxy_background {
+	padding-left: 320px;
+}
+
+#origin {
+	background-position: center right;
+	background-size: 330px 355px;
+	padding-right: 320px;
+	text-align: left;
+}
+
+
+#participate_ideas dl {
+	display: inline-block;
+	width: 49%;
+
+}
+
+
+#social_first .social-links li {
+	padding: 0px 10px
+}
+
+
+#vimeo_iframe {
+	width: 600px;
+	height: 338px;
+}
+
+
+
+.call_to_action {
+	margin-right: 50px;
+	margin-bottom: 20px;
+}

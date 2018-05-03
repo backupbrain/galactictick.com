@@ -1,0 +1,96 @@
+#top_bar {
+	/* display: none; */
+}
+nav {
+	display: none;
+}
+#brand_badge {
+	display: none;
+}
+#collapse_menu {
+	padding: 10px 10px;
+	text-align: right;
+	font-size: 20px;
+}
+#collapse_menu a {
+	color: #999;
+}
+nav ul li {
+	display: block
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #222;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #666;
+	display: block;
+	padding: 10px 15px;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: #E6AF2A;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#hero {
+ 	margin-top: 50%;
+}
+
+#galaxy {
+	width: 400px;
+	height: 400px;
+}
+/*
+#about {
+	background-position: center top;
+	background-size: 330px 330px;
+	padding-top: 400px;
+	text-align: center;
+	margin-top: 50px;
+}
+*/
+#about::before {
+	background-position: top center;
+	background-size: 300px 300px;
+	transform-origin: 150px 150px;
+}
+#galaxy_background {
+}
+
+#origin {
+	margin-top: 0px !important;
+	background-position: center top;
+	background-size: 330px 355px;
+	padding-top: 450px;
+	text-align: center;
+}
+
+#participate_ideas dl {
+	display: block;
+	margin: 0px 0px 100px 0px;
+}
+
+nav li {
+	display: block;
+
+}
+
+#social_first .social-links li {
+	padding: 0px 2px
+}
+
+
+#vimeo_iframe {
+	width: 320px;
+	height: 180px;
+}
+
+.call_to_action {
+	margin-bottom: 20px;
+}

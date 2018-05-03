@@ -1,0 +1,121 @@
+
+#################################
+#
+#  Other Robots / global
+#
+#################################
+
+User-Agent: *
+Disallow: /
+Disallow: /_purchase
+Disallow: /_hidden
+#Crawl-delay: 5
+Host: fashionglowjewelry.com
+
+
+#################################
+#
+#  W3C link Checker
+#
+#################################
+
+User-Agent: W3C-checklink/*
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+#################################
+#
+#  Google 
+#
+#################################
+
+
+User-agent: Googlebot
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+User-Agent: Googlebot-Mobile
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+User-Agent: Googlebot-Image
+Allow: /*.(jpg|gif|png)$
+
+
+User-Agent: Mediapartners-Google
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+User-Agent: Adsbot-Google
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+
+#################################
+#
+#  Yahoo!
+#
+#################################
+
+
+User-Agent: Slurp
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+#################################
+#
+#  Digg
+#
+#################################
+
+
+User-Agent: diggmirror
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+#################################
+#
+#  Microsoft Bing
+#
+#################################
+
+User-Agent: msnbot
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+User-Agent: msnbot-media
+Allow: /*.(jpg|gif|png)$
+
+#################################
+#
+#  Ask Jeeves
+#
+#################################
+
+User-Agent: Teoma
+Allow: /
+Allow: /*$
+Disallow: /_purchase
+
+
+#################################
+#
+#  Our sitemap
+#
+#################################
+
+Sitemap: http://fashionglowjewelry.com/sitemap.rss.xml

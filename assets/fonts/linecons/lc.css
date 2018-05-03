@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'lc';
+  src: url('lc.eot?54130003');
+  src: url('lc.eot?54130003#iefix') format('embedded-opentype'),
+       url('lc.woff?54130003') format('woff'),
+       url('lc.ttf?54130003') format('truetype'),
+       url('lc.svg?54130003#lc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'lc';
+    src: url('lc.svg?54130003#lc') format('svg');
+  }
+}
+*/
+ 
+ [class^="lc-"]:before, [class*=" lc-"]:before {
+  font-family: "lc";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.lc-music:before { content: '\e800'; } /* 'î €' */
+.lc-search:before { content: '\e801'; } /* 'î ' */
+.lc-mail:before { content: '\e802'; } /* 'î ‚' */
+.lc-heart:before { content: '\e803'; } /* 'î ƒ' */
+.lc-star:before { content: '\e804'; } /* 'î „' */
+.lc-user:before { content: '\e805'; } /* 'î …' */
+.lc-videocam:before { content: '\e806'; } /* 'î †' */
+.lc-camera:before { content: '\e807'; } /* 'î ‡' */
+.lc-photo:before { content: '\e808'; } /* 'î ˆ' */
+.lc-attach:before { content: '\e809'; } /* 'î ‰' */
+.lc-lock:before { content: '\e80a'; } /* 'î Š' */
+.lc-eye:before { content: '\e80b'; } /* 'î ‹' */
+.lc-tag:before { content: '\e80c'; } /* 'î Œ' */
+.lc-thumbs-up:before { content: '\e80d'; } /* 'î ' */
+.lc-pencil:before { content: '\e80e'; } /* 'î Ž' */
+.lc-comment:before { content: '\e80f'; } /* 'î ' */
+.lc-location:before { content: '\e810'; } /* 'î ' */
+.lc-cup:before { content: '\e811'; } /* 'î ‘' */
+.lc-trash:before { content: '\e812'; } /* 'î ’' */
+.lc-doc:before { content: '\e813'; } /* 'î “' */
+.lc-note:before { content: '\e814'; } /* 'î ”' */
+.lc-cog:before { content: '\e815'; } /* 'î •' */
+.lc-params:before { content: '\e816'; } /* 'î –' */
+.lc-calendar:before { content: '\e817'; } /* 'î —' */
+.lc-sound:before { content: '\e818'; } /* 'î ˜' */
+.lc-clock:before { content: '\e819'; } /* 'î ™' */
+.lc-lightbulb:before { content: '\e81a'; } /* 'î š' */
+.lc-tv:before { content: '\e81b'; } /* 'î ›' */
+.lc-desktop:before { content: '\e81c'; } /* 'î œ' */
+.lc-mobile:before { content: '\e81d'; } /* 'î ' */
+.lc-cd:before { content: '\e81e'; } /* 'î ž' */
+.lc-inbox:before { content: '\e81f'; } /* 'î Ÿ' */
+.lc-globe:before { content: '\e820'; } /* 'î  ' */
+.lc-cloud:before { content: '\e821'; } /* 'î ¡' */
+.lc-paper-plane:before { content: '\e822'; } /* 'î ¢' */
+.lc-fire:before { content: '\e823'; } /* 'î £' */
+.lc-graduation-cap:before { content: '\e824'; } /* 'î ¤' */
+.lc-megaphone:before { content: '\e825'; } /* 'î ¥' */
+.lc-database:before { content: '\e826'; } /* 'î ¦' */
+.lc-key:before { content: '\e827'; } /* 'î §' */
+.lc-beaker:before { content: '\e828'; } /* 'î ¨' */
+.lc-truck:before { content: '\e829'; } /* 'î ©' */
+.lc-money:before { content: '\e82a'; } /* 'î ª' */
+.lc-food:before { content: '\e82b'; } /* 'î «' */
+.lc-shop:before { content: '\e82c'; } /* 'î ¬' */
+.lc-diamond:before { content: '\e82d'; } /* 'î ­' */
+.lc-t-shirt:before { content: '\e82e'; } /* 'î ®' */
+.lc-wallet:before { content: '\e82f'; } /* 'î ¯' */
