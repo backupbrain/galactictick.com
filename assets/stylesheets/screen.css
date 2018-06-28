@@ -648,3 +648,9 @@ textarea {
 	width: 110px;
 	height: 31px;
 }
+
+.presslinks #reddit a {
+	background-image: url(../images/press/reddit.png);
+	width: 50px;
+	height: 50px;
+}
