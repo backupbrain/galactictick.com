@@ -642,3 +642,9 @@ textarea {
 	width: 47px;
 	height: 60px;
 }
+
+.presslinks #astronomy a {
+	background-image: url(../images/press/astronomy.png);
+	width: 110px;
+	height: 31px;
+}
