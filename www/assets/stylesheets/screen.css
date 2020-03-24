@@ -646,7 +646,13 @@ textarea {
 .presslinks #astronomy a {
 	background-image: url(../images/press/astronomy.png);
 	width: 110px;
-	height: 31px;
+	height: 53px;
+}
+
+.presslinks #dayfinders a {
+	background-image: url(../images/press/dayfinders.png);
+	width: 186px;
+	height: 53px;
 }
 
 .presslinks #reddit a {
